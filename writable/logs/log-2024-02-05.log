@@ -1,0 +1,66 @@
+CRITICAL - 2024-02-05 07:25:34 --> ParseError: syntax error, unexpected variable "$abc"
+in APPPATH\Views\welcome_message.php on line 147.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(21): view('welcome_message', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp - Copy\\public\\index.php')
+CRITICAL - 2024-02-05 12:58:30 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+in APPPATH\Controllers\FormController.php on line 16.
+ 1 APPPATH\Controllers\FormController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$getPost', 'C:\\xampp\\htdocs\\testApp - Copy\\app\\Controllers\\FormController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp - Copy\\public\\index.php')
+CRITICAL - 2024-02-05 12:59:08 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+in APPPATH\Controllers\FormController.php on line 16.
+ 1 APPPATH\Controllers\FormController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$getPost', 'C:\\xampp\\htdocs\\testApp - Copy\\app\\Controllers\\FormController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp - Copy\\public\\index.php')
+CRITICAL - 2024-02-05 12:59:18 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+in APPPATH\Controllers\FormController.php on line 16.
+ 1 APPPATH\Controllers\FormController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$getPost', 'C:\\xampp\\htdocs\\testApp - Copy\\app\\Controllers\\FormController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp - Copy\\public\\index.php')
+CRITICAL - 2024-02-05 12:59:20 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+in APPPATH\Controllers\FormController.php on line 16.
+ 1 APPPATH\Controllers\FormController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$getPost', 'C:\\xampp\\htdocs\\testApp - Copy\\app\\Controllers\\FormController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp - Copy\\public\\index.php')
+CRITICAL - 2024-02-05 13:51:42 --> mysqli_sql_exception: Unknown column 'search' in 'where clause'
+in APPPATH\Views\welcome_message.php on line 146.
+ 1 APPPATH\Views\welcome_message.php(146): mysqli_query(Object(mysqli), 'SELECT * FROM merged WHERE search = \'Burger\' and veg_non_veg = \'Non-Veg\' and topping_name = \'Mozzarella\' and product_category =\'Burger\' ')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\testApp - Copy\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp - Copy\\public\\index.php')
+CRITICAL - 2024-02-05 13:53:32 --> mysqli_sql_exception: Unknown column 'searchall' in 'where clause'
+in APPPATH\Views\welcome_message.php on line 146.
+ 1 APPPATH\Views\welcome_message.php(146): mysqli_query(Object(mysqli), 'SELECT * FROM merged WHERE searchall = \'burger\' and veg_non_veg = \'Veg\' and topping_name = \'Mozzarella\' and product_category =\'Burger\' ')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\testApp - Copy\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp - Copy\\public\\index.php')
